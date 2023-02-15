@@ -1,0 +1,119 @@
+@import "../GameCard/GameCard.css";
+
+.game-main {
+  background-color: #b4b4b4;
+  padding-bottom: 2rem;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 6;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto 2rem auto;
+  padding-top: 2rem;
+  grid-gap: 2rem;
+}
+
+.game-title {
+  margin: auto auto 1rem auto;
+  justify-self: center;
+  grid-column: 1 / 5;
+  grid-row: 1;
+}
+
+#id1,
+#id2,
+#id3,
+#id4 {
+  grid-row: 2;
+}
+
+#id5,
+#id6,
+#id7,
+#id8 {
+  grid-row: 3;
+}
+
+#id9,
+#id10,
+#id11,
+#id12 {
+  grid-row: 4;
+}
+
+#id13,
+#id14,
+#id15,
+#id16 {
+  grid-row: 5;
+}
+
+#id1,
+#id5,
+#id9,
+#id13 {
+  grid-column: 1;
+}
+
+#id2,
+#id6,
+#id10,
+#id14 {
+  grid-column: 2;
+}
+
+#id3,
+#id7,
+#id11,
+#id15 {
+  grid-column: 3;
+}
+
+#id4,
+#id8,
+#id12,
+#id16 {
+  grid-column: 4;
+}
+
+#btn-start-inactive,
+#btn-stop-inactive,
+#btn-restart:hover {
+  cursor: pointer;
+}
+
+#btn-start-inactive,
+#btn-stop-inactive,
+#btn-restart {
+  grid-row: 6;
+  justify-self: center;
+}
+
+#btn-start-inactive {
+  grid-column: 1;
+}
+
+#btn-stop-inactive {
+  grid-column: 2;
+}
+
+#btn-restart {
+  grid-column: 3;
+}
+
+#btn-start-active {
+  grid-row: 6;
+  justify-self: center;
+  grid-column: 1;
+  color: green;
+}
+
+#btn-stop-active {
+  grid-row: 6;
+  justify-self: center;
+  grid-column: 2;
+  color: red;
+}

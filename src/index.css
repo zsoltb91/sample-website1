@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+:root {
+  --def-bg-color: #ffffff;
+  --alt-bg-color: #e6e6e6;
+  --normal-font: 1rem;
+  --big-font: 1.5rem;
+  --alt-font-color: #000000;
+  --font-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Noto Serif", serif;
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
 }

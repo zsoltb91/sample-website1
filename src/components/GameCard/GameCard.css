@@ -1,0 +1,67 @@
+.card-noclick {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(156, 156, 156);
+  border-radius: 10px;
+  border: 1px solid black;
+  pointer-events: none;
+}
+
+.card {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(156, 156, 156);
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+.img {
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+}
+
+#id1,
+#id2,
+#id3,
+#id4,
+#id5,
+#id6,
+#id7,
+#id8,
+#id9,
+#id10,
+#id11,
+#id12,
+#id13,
+#id14,
+#id15,
+#id16 {
+  opacity: 1;
+}
+
+#id1h,
+#id2h,
+#id3h,
+#id4h,
+#id5h,
+#id6h,
+#id7h,
+#id8h,
+#id9h,
+#id10h,
+#id11h,
+#id12h,
+#id13h,
+#id14h,
+#id15h,
+#id16h {
+  opacity: 0;
+}

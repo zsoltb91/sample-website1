@@ -1,0 +1,24 @@
+.navbar {
+  margin: 0.3rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 4rem;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 3rem;
+  font-size: var(--normal-font);
+  align-items: center;
+}
+
+ul li a:hover {
+  color: gray;
+}
+
+.title {
+  letter-spacing: 0.2rem;
+  font-size: var(--big-font);
+}

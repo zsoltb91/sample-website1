@@ -1,0 +1,19 @@
+.maindiv {
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: var(--font-color);
+}
+
+.main-text {
+  width: 60%;
+  text-align: center;
+}
+
+.main-title {
+  margin-bottom: 2rem;
+}

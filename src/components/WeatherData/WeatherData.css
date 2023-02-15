@@ -1,0 +1,52 @@
+.weather-main {
+  background-color: rgb(197, 197, 197);
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  width: 60%;
+  color: var(--alt-font-color);
+}
+
+.weather-title {
+  margin: 2rem auto 1rem auto;
+}
+
+.weather-descr {
+  margin: 1rem auto 1rem auto;
+}
+
+.weather-btn {
+  margin: 1rem auto 1rem auto;
+  font-weight: 700;
+  padding: 0.2rem;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  /*align-content: center;*/
+  align-items: center;
+}
+
+.result-cityname {
+  margin: 1rem auto;
+}
+
+.result-temp {
+  margin: 0 auto auto auto;
+}
+
+.result-wtext {
+  margin: 1rem auto 1rem auto;
+}
+
+.wimg {
+  margin-bottom: 2rem;
+  height: 6rem;
+}
