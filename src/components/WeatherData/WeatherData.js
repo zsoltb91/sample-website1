@@ -33,6 +33,7 @@ function WeatherData() {
     imgSearch();
   });
 
+//Search appropriate image based on result
   function imgSearch() {
     switch (resultText) {
       case "Clear":

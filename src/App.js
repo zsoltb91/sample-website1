@@ -4,6 +4,7 @@ import UpperContainer from "./components/UpperContainer/UpperContainer";
 import Main from "./components/Main/Main";
 import WeatherData from "./components/WeatherData/WeatherData";
 import MemoryGame from "./components/MemoryGame/MemoryGame";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </UpperContainer>
       <WeatherData />
       <MemoryGame />
+      <Footer/>
     </div>
   );
 }

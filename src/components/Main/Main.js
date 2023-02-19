@@ -10,8 +10,8 @@ function Main() {
       </div>
       <div className="main-text">
         <span>
-          My name is Zsolt Berki, and this is a portfolio website. If you are
-          interested in my frontend works, please scroll down or choose from the
+          My name is Zsolt Berki, and this is my portfolio website. If you are
+          interested in my React apps, please scroll down or choose from the
           menu.
         </span>
       </div>

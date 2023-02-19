@@ -2,24 +2,38 @@
   display: flex;
   width: 10rem;
   height: 10rem;
-  background-color: rgb(156, 156, 156);
+  background-color: var(--card-bg-color);
   border-radius: 10px;
-  border: 1px solid black;
+  border: var(--card-border);
   pointer-events: none;
+  cursor: none;
+}
+
+.disabled{
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  border: var(--card-border);
+  pointer-events: none;
+  cursor: none;
 }
 
 .card {
   display: flex;
   width: 10rem;
   height: 10rem;
-  background-color: rgb(156, 156, 156);
+  background-color: var(--card-bg-color);
   border-radius: 10px;
-  border: 1px solid black;
+  border: var(--card-border);
   cursor: pointer;
 }
 
 .card:hover {
-  background-color: rgb(116, 116, 116);
+  box-shadow: 1px 1px #000000;
+  transform: scale(1.02);
+  background-color: var(--card-hover-color);
 }
 
 .img {
@@ -45,6 +59,7 @@
 #id15,
 #id16 {
   opacity: 1;
+  transition: 0.5s;
 }
 
 #id1h,
@@ -64,4 +79,7 @@
 #id15h,
 #id16h {
   opacity: 0;
+  transition: 0.5s;
 }
+
+

@@ -7,6 +7,9 @@
   --big-font: 1.5rem;
   --alt-font-color: #000000;
   --font-color: #ffffff;
+  --card-bg-color: #1d1d1d88;
+  --card-border: 1px solid rgb(0, 0, 0);
+  --card-hover-color: #1d1d1dc2;
 }
 
 * {
